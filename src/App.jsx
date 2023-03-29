@@ -1,9 +1,10 @@
 import React from 'react';
+import Topbar from './components/Topbar';
 
 const App = () => {
 	return (
-		<div className="text-6xl text-purple-900 hover:text-green-200 font-bold underline">
-			App
+		<div>
+			<Topbar />
 		</div>
 	);
 };
