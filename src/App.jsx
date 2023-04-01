@@ -5,6 +5,7 @@ import Gallery from './components/Gallery';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Topbar from './components/Topbar';
+import Contact from './components/Contact';
 
 const App = () => {
 	return (
@@ -15,6 +16,7 @@ const App = () => {
 			<Activities />
 			<Booking />
 			<Gallery />
+			<Contact />
 		</div>
 	);
 };
